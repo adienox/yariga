@@ -1,6 +1,5 @@
 import { useGetIdentity, useOne } from '@pankod/refine-core';
 import { Profile } from 'components';
-import { ProfileProps } from 'interfaces/common';
 
 const MyProfile = () => {
 	const { data: user } = useGetIdentity();

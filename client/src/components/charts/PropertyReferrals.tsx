@@ -1,6 +1,4 @@
 import { Box, Typography, Stack } from '@pankod/refine-mui'
-import ReactApexChart from 'react-apexcharts'
-
 import { propertyReferralsInfo } from 'constants/index'
 
 interface ProgressBarProps {
